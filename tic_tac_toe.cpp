@@ -8,7 +8,7 @@ char character = 'X';
 string player1 = " ";
 string player2 = " ";
 bool tie = false;
-int main();
+
 void displayBoard()
 {
 
