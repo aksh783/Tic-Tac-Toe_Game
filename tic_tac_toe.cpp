@@ -396,11 +396,13 @@ int main()
     }
 
     if (character == 'X' && tie == false)
-        cout << player2 << " wins!" << endl;
-    
+    {cout << player2 << " wins!" << endl;
+        cout << "Btter luck next time " << player1 << endl;
+    }
     else if (character == 'O' && tie == false)
-        cout << player1 << " wins!" << endl;
-    
+    {cout << player1 << " wins!" << endl;
+        cout << "Btter luck next time " << player2 << endl;
+    }
     else
         cout << "It's a draw!" << endl;
     }
