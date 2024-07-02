@@ -380,7 +380,6 @@ int main()
     cin.ignore();
     getline(cin,player1);
     cout << "Enter the name of the second player : " ;
-    cin.ignore();
     getline(cin,player2);
     cout << endl;
 
